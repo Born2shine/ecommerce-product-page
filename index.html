@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>Frontend Mentor | E-commerce product page</title>
+</head>
+
+<body>
+    <section class="main-wrapper">
+        <header>
+            <nav>
+                <div class="left">
+                    <div class="menu-logo">
+                        <span class="menu-btn"><i class="fa-solid fa-bars"></i></span>
+                        <div class="logo">
+                            <h2>sneaker</h2>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <span class="close-btn"><i class="fa-solid fa-xmark"></i></span>
+                        <ul>
+                            <li><a href="#">Collections</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <span class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                    <img class="avatar" src="./assets/images/image-avatar.png" alt="">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="images">
+                <div class="main-img">
+                    <span class="toggle-left"><i class="fa-solid fa-angle-left"></i></span>
+                    <img class="big-img" src="./assets/images/image-product-1.jpg" alt="">
+                    <span class="toggle-right"><i class="fa-solid fa-angle-right"></i></span>
+                </div>
+                <div class="sub-images">
+                    <img class="thumbnail opacity" src="./assets/images/image-product-1-thumbnail.jpg" alt="">
+                    <img class="thumbnail" src="./assets/images/image-product-2-thumbnail.jpg" alt="">
+                    <img class="thumbnail" src="./assets/images/image-product-3-thumbnail.jpg" alt="">
+                    <img class="thumbnail" src="./assets/images/image-product-4-thumbnail.jpg" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <h4 class="sub-title special-text">sneakers company</h4>
+                <h1 class="title">Fall Limited Edition Sneakers</h1>
+                <p class="text">
+                    These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
+                </p>
+                <div class="prices">
+                    <div class="current-price">
+                        <h2>$125.00</h2>
+                        <span class="rate special-text">50%</span>
+                    </div>
+                    <span class="old-price"><strike>$250.00</strike></span>
+                </div>
+                <div class="btn-container">
+                    <div class="item-count">
+                        <span class="decrement special-text">-</span>
+                        <span class="value">0</span>
+                        <span class="increment special-text">+</span>
+                    </div>
+                    <a class="add-btn" href="#"><span class="add-icon"><i class="fa-solid fa-cart-shopping"></i></span> Add to cart</a>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- Collections Men Women About Contact Sneaker Company Fall Limited Edition Sneakers  $125.00 50%
+    $250.00 0 Add to cart -->
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
